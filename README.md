@@ -109,7 +109,7 @@ In future iterations, given enough time and resources, I would try the following
 
 - Add several data augmentation, since the dataset is small.
 
-- One way to increase the number of samples is by spliting each full sized image into 9*9 grids and add zero padding wherever required. This will elevate two important issues.
+- One way to increase the number of samples is by spliting each full sized image into 3x3 grids and add zero padding wherever required. This will elevate two important issues.
   - increase the number of samples by x9 times.
   - assist in reducing `class` and `mask` losses, without changing `anchor scales`.
   - Possibly third, improve class imbalance problem as well.
